@@ -10,7 +10,7 @@ function App() {
     const name = form.name.value;
     const newUser = { name, email };
 
-    fetch("http://localhost:3000/users", {
+    fetch("https://simple-crud-server-getmonirr.vercel.app/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

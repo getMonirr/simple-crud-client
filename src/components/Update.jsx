@@ -13,7 +13,7 @@ const Update = () => {
     const updatedUser = { name, email };
 
     console.log(updatedUser);
-    fetch(`http://localhost:3000/user/${user?._id}`, {
+    fetch(`https://simple-crud-server-getmonirr.vercel.app/user/${user?._id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
